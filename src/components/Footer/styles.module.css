@@ -1,3 +1,46 @@
-.foot {
-    background-color: #ada6a6;
+.footer {
+    background-color: #b9b5b5;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    width: 100%;
 }
+
+.footerSection  {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    width: 80%;
+}
+
+.footerText {
+    flex: 1;
+}
+
+.footerText2 {
+    flex: 1;
+    text-align: center;
+}
+
+.footerText2 p {
+    font-size: 30px;
+    color: black;
+}
+
+.footerText2 span {
+    font-size: 16px;
+    color: black;
+}
+
+.footerImage {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 20%;
+}
+
+
+
+
